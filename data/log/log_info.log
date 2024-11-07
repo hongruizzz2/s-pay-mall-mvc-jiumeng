@@ -5,13 +5,13 @@
 24-11-07.00:21:03.202 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:21:03.458 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
 24-11-07.00:21:03.463 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-07.00:21:03.464 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:21:03.464 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:21:03.464 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:21:03.586 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:21:03.586 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 866 ms
 24-11-07.00:21:03.935 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:21:17.162 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:21:17.164 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:21:17.164 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:21:17.177 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -141,7 +141,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:22:03.182 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:22:03.397 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
 24-11-07.00:22:03.401 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-07.00:22:03.401 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:22:03.401 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:22:03.402 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:22:03.522 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:22:03.522 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 713 ms
@@ -154,13 +154,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:23:37.935 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:23:38.157 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:23:38.161 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:23:38.162 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:23:38.162 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:23:38.162 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:23:38.281 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:23:38.281 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 717 ms
 24-11-07.00:23:38.603 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:23:51.890 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:23:51.892 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:23:51.892 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:23:51.900 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -290,13 +290,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:29:13.959 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:29:14.179 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:29:14.184 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:29:14.184 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:29:14.184 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:29:14.184 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:29:14.306 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:29:14.306 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 729 ms
 24-11-07.00:29:14.627 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:29:27.862 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:29:27.864 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:29:27.864 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:29:27.873 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -426,13 +426,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:36:37.679 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:36:37.896 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:36:37.900 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:36:37.901 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:36:37.901 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:36:37.901 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:36:38.018 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:36:38.018 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 712 ms
 24-11-07.00:36:38.333 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:36:51.590 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:36:51.592 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:36:51.592 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:36:51.601 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -562,13 +562,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:38:34.505 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:38:34.724 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:38:34.728 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:38:34.728 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:38:34.728 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:38:34.729 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:38:34.850 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:38:34.850 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 718 ms
 24-11-07.00:38:35.216 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:38:48.458 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:38:48.460 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:38:48.460 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:38:48.469 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -698,13 +698,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:40:14.099 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:40:14.335 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:40:14.340 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:40:14.341 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:40:14.341 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:40:14.341 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:40:14.468 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:40:14.468 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 753 ms
 24-11-07.00:40:14.789 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:40:28.057 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:40:28.059 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:40:28.059 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:40:28.068 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -834,13 +834,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:42:01.303 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
 24-11-07.00:42:01.515 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:42:01.519 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:42:01.520 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:42:01.520 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:42:01.520 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:42:01.645 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:42:01.645 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 716 ms
 24-11-07.00:42:01.980 [main            ] INFO  Version                - Redisson 3.26.0
 24-11-07.00:42:15.192 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfigurationV2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
-24-11-07.00:42:15.194 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.00:42:15.194 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.00:42:15.203 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -967,7 +967,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.00:48:15.612 [main            ] INFO  Application            - The following 1 profile is active: "dev"
 24-11-07.00:48:16.007 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.00:48:16.011 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.00:48:16.012 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.00:48:16.012 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.00:48:16.012 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.00:48:16.114 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.00:48:16.115 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 482 ms
@@ -978,7 +978,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.14:18:36.844 [main            ] INFO  Application            - The following 1 profile is active: "dev"
 24-11-07.14:18:37.343 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.14:18:37.348 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.14:18:37.348 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.14:18:37.348 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.14:18:37.348 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.14:18:37.476 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.14:18:37.476 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 603 ms
@@ -1008,7 +1008,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.17:14:25.543 [main            ] INFO  Application            - The following 1 profile is active: "dev"
 24-11-07.17:14:26.053 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.17:14:26.061 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.17:14:26.061 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.17:14:26.061 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.17:14:26.063 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.17:14:26.213 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.17:14:26.213 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 647 ms
@@ -1028,7 +1028,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.17:18:11.239 [main            ] INFO  Application            - The following 1 profile is active: "dev"
 24-11-07.17:18:11.692 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.17:18:11.696 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.17:18:11.696 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.17:18:11.696 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.17:18:11.696 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.17:18:11.808 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.17:18:11.808 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 545 ms
@@ -1044,12 +1044,12 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-11-07.17:22:16.752 [main            ] INFO  Application            - The following 1 profile is active: "dev"
 24-11-07.17:22:17.208 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.17:22:17.213 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.17:22:17.213 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.17:22:17.213 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.17:22:17.213 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.17:22:17.322 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.17:22:17.322 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 546 ms
 24-11-07.17:22:17.861 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'weixin.config.template_id' in value "${weixin.config.template_id}"
-24-11-07.17:22:17.862 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-07.17:22:17.862 [main            ] INFO  StandardService        - Stopping com.hongrui.test.service [Tomcat]
 24-11-07.17:22:17.868 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -1110,7 +1110,7 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'we
 24-11-07.17:26:19.880 [main            ] INFO  Application            - The following 1 profile is active: "dev"
 24-11-07.17:26:20.311 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
 24-11-07.17:26:20.315 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
-24-11-07.17:26:20.315 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-07.17:26:20.315 [main            ] INFO  StandardService        - Starting com.hongrui.test.service [Tomcat]
 24-11-07.17:26:20.315 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
 24-11-07.17:26:20.422 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
 24-11-07.17:26:20.422 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 522 ms
@@ -1199,9 +1199,9 @@ version             : 1.4.10
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at javax.servlet.http.HttpServlet.com.hongrui.test.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.com.hongrui.test.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.com.hongrui.test.service(HttpServlet.java:623)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
@@ -1225,8 +1225,8 @@ version             : 1.4.10
 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.catalina.connector.CoyoteAdapter.com.hongrui.test.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.com.hongrui.test.service(Http11Processor.java:390)
 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)

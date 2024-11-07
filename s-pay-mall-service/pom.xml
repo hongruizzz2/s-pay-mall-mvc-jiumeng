@@ -79,7 +79,7 @@
     </dependencies>
 
     <build>
-        <finalName>s-pay-mall-service</finalName>
+        <finalName>s-pay-mall-com.hongrui.test.service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

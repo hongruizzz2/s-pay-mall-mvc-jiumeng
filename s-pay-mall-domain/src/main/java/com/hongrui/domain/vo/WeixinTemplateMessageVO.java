@@ -1,4 +1,4 @@
-package com.hongrui.domain.po;
+package com.hongrui.domain.vo;
 
 import java.util.HashMap;
 import java.util.Map;

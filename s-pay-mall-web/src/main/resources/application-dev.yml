@@ -16,6 +16,30 @@ weixin:
     app-secret: c320ca3503428e01c667395c97f8c2a1
     template_id: cLw4M2iNTC50zEUGsVIN-6xTAAnDRi2ehA6C3nqaQZ4
 
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/s-pay-mall?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    validationQuery: SELECT 1
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location:  classpath:/mybatis/config/mybatis-config.xml
+
+
 #spring:
 #  datasource:
 #    username: root

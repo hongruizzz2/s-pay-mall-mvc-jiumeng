@@ -1,6 +1,6 @@
 package com.hongrui.service.impl;
 
-import com.hongrui.domain.po.WeixinTemplateMessageVO;
+import com.hongrui.domain.vo.WeixinTemplateMessageVO;
 import com.hongrui.domain.req.WeixinQrCodeReq;
 import com.hongrui.domain.res.WeixinQrCodeRes;
 import com.hongrui.domain.res.WeixinTokenRes;
