@@ -1,4 +1,4 @@
-package com.hongrui.common;
+package com.hongrui.common.weixin;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.core.util.QuickWriter;

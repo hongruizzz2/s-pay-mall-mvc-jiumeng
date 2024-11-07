@@ -1,4 +1,4 @@
-package com.hongrui.common;
+package com.hongrui.common.weixin;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

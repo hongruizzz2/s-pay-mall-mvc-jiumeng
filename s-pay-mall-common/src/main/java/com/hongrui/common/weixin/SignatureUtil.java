@@ -1,4 +1,4 @@
-package com.hongrui.common;
+package com.hongrui.common.weixin;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
